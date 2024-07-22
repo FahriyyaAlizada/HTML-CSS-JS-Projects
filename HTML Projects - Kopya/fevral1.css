@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 3px;
+    background-color: grey;
+    overflow: hidden;
+    width: 40%;
+    border: 1px solid black;
+    box-shadow: 3px 4px rgb(207, 205, 205);
+    border-radius: 5px;
+}
+li {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 60%;
+}
+img {
+    width: 51px;
+    height: 55px;
+    border-radius: 3px;
+}
+p {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    counter-reset: number;
+}
+p::before {
+    counter-increment: number;
+    content: counter(number) " )  ";
+}
+p:hover {
+    color: navy;
+}

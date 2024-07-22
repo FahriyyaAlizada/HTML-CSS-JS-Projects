@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+}
+.text1 {
+    font-size: 100%;
+    color: white;
+}
+.text2 {
+    font-size: 70%;
+    color: whitesmoke;
+}
+#box1 {
+    margin-left: 40px;
+    position: absolute;
+    bottom: 100px;
+    display: block;
+}
+#text3 {
+    margin-left: 330px;
+    position: absolute;
+    top: 0px;
+}
+.inputbox {
+    border: 1px solid;
+    width: 350px;
+    padding: 5px;
+}
+.input {
+    border-style: none;
+}
+#box2 {
+    margin-left: 250px;
+    position: absolute;
+    top: 60px;
+}
+#button {
+    margin-left: 370px;
+    position: absolute;
+    bottom: 10px;
+    background-color: antiquewhite;
+    border-style: none;
+    padding: 5px;
+    border-radius: 3px;
+}

@@ -1,0 +1,58 @@
+* {
+    background-color: peru;
+}
+#line {
+    font-size: x-large;
+    position: absolute;
+    bottom: 650px;
+    right: 150px;
+    font-style: bold;
+}
+#text1 {
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    margin: 50px;
+}
+#text2 {
+    color: whitesmoke;
+    margin: 50px;
+    font-size: 90px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#text3 {
+    font-size: medium;
+    text-align: left;
+    position: absolute;
+    bottom: 335px;
+}
+.linne {
+    float: left;
+    padding-right: 100px;
+    margin: 50px;
+    position: relative;
+    bottom: 100px;
+}
+.font {
+    color: whitesmoke;
+    font-size: 50px;
+    float: left;
+    position: relative;
+    bottom: 150px;
+}
+#font1 {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    right: 1180px;
+}
+#font2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    right: 810px;
+}
+#font3 {
+    font-family: "Sofia", sans-serif;
+    position: absolute;
+    right: 430px;
+}

@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    background-color: rgb(254, 250, 224);
+}
+#main {
+    width: 665px;
+    height: 280px;
+    margin: 40px;
+    background-color: rgb(221, 161, 94);
+    box-shadow: 4px 4px 4px rgb(195, 195, 195);
+    position: relative;
+}
+#photo1 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 280px;
+    width: 260px;
+}
+#text1 {
+    background-color: rgb(221, 161, 94);
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: rgb(40, 54, 24);
+    font-style: italic;
+    font-weight: bold;
+}
+.box {
+    background-color: rgb(96, 108, 56);
+    width: 200px;
+    padding: 10px;
+    box-shadow: 4px 3px 3px rgb(192, 192, 192,0.4);
+}
+.profilephoto{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(96, 108, 56);
+    margin-left: 75px;
+    margin-top: 5px;
+}
+.boxtext1 {
+    background-color: rgb(96, 108, 56);
+    text-align: center;
+    color: rgb(188, 108, 37);
+    font-size: 110%;
+}
+.boxtext2 {
+    background-color: rgb(96, 108, 56);
+    text-align: center;
+    color: rgb(254, 250, 224);
+    font-size: 65%;
+    margin-top: 5px;
+    font-style: italic;
+}
+button {
+    border: 1px solid rgb(221, 161, 94);
+    background-color: rgb(221, 161, 94);
+    font-size: 70%;
+    padding: 3px;
+    color: rgb(40, 54, 24);
+    margin-top: 15px;
+    margin-left: 55px;
+}
+#boxes {
+    display: flex;
+    position: absolute;
+    top: 115px;
+    left: 60px;
+    background-color: rgb(221, 161, 94);
+}

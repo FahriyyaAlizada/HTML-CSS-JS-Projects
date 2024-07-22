@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+}
+#box1 {
+    text-align: center;
+    font-size: 80%;
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 180px;
+}
+button {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 80%;
+}
+#box2 {
+    width: 300px;
+    margin-left: 10px;
+}
+#box3 {
+    font-size: 70%;
+    position: absolute;
+    right: 5px;
+    bottom: 70px;
+    width: 200px;
+}
+#box4 {
+    text-align: center;
+    font-size: 70%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 8%, rgba(148,187,233,1) 100%);
+    width: 97%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+}

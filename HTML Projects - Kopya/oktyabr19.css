@@ -1,0 +1,18 @@
+#main {
+    color: black;
+    background-color: tomato;
+    height: 250px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#topic {
+    color: midnightblue;
+    background-color: goldenrod;
+    font-size: x-large;
+    text-align: center;
+    border: 2px solid;
+    margin: auto;
+    width: 96%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}

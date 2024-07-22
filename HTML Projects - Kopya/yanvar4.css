@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+}
+h2 {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+#flexbox1 {
+    display: flex;
+    justify-content: space-between;
+}
+.box1 {
+    margin: 10px;
+    width: 200px;
+    background-color: azure;
+    padding: 10px;
+    font-size: 65%;
+    border: 1px solid black;
+    box-shadow: 3px 4px rgb(217, 213, 213);
+}
+#flexbox2 {
+    display: flex;
+}
+h4 {
+    margin-left: 13px;
+    background-color: rgb(183, 183, 177);
+    padding: 4px;
+    border-radius: 3px;
+}
+#text {
+    width: 200px;
+    text-align: center;
+    margin-left: -3px;
+}

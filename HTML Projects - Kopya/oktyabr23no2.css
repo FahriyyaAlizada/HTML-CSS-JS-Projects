@@ -1,0 +1,33 @@
+#box1 {
+    border-style: dashed;
+    border-color: red;
+    border-top-color: blue;
+}#box2 {
+    border-style: dotted;
+    border-color: blue;
+}#box3 {
+    border-style: double;
+    border-color: green;
+}#box4 {
+    border-style: none;
+}#box5 {
+    border-style: groove;
+    border-color: red;
+}#box6 {
+    border-style: hidden;
+}#box7 {
+    border-style: inset;
+    border-color: blue;
+}#box8 {
+    border-style: outset;
+    border-color: green;
+}#box9 {
+    border-style: ridge;
+    border-color: red;
+}#box10 {
+    border-style: solid;
+    border-color: blue;
+}
+hr {
+    width: 50%;
+}

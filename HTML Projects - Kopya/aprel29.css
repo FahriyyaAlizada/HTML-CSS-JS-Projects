@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+}
+#box1 {
+    display: flex;
+    font-size: 60%;
+    justify-content: space-around;
+    padding: 10px;
+}
+.box2 {
+    display: flex;
+    margin-left: 40px;
+}
+.box2 p {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    color: rgb(67, 40, 24);
+}
+.box2 p:hover {
+    font-weight: bold;
+    color: rgb(111, 29, 27);
+    border-bottom: 1px solid rgb(111, 29, 27);
+}
+.image {
+    width: 100%;
+    height: 200px;
+}
+button {
+    color: rgb(111, 29, 27);
+    font-weight: bold;
+    background-color: rgb(187, 148, 87);
+    border: 1px solid rgb(187, 148, 87);
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 50%;
+}
+.box3 {
+    width: 380px;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+}
+.box3 h4 {
+    margin-bottom: 8px;
+    color: rgb(111, 29, 27);
+}
+.box3 p {
+    font-size: 60%;
+    color: rgb(67, 40, 24);
+    margin-bottom: 8px;
+}
+.boxes i {
+    font-size: 200%;
+    color: rgb(153, 88, 42);
+}
+.boxes {
+    width: 200px;
+    text-align: center;
+}
+.boxes h4 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: rgb(111, 29, 27);
+}
+.boxes p {
+    font-size: 60%;
+    margin-bottom: 5px;
+    color: rgb(67, 40, 24);
+}
+#box4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 80%
+}

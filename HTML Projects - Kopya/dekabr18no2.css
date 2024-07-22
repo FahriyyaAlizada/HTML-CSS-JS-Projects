@@ -1,0 +1,16 @@
+h2 {
+    margin: 0px;
+    border: 1px solid;
+}
+th {
+    text-align: left;
+    border: 1px solid;
+    width: 120px;
+}
+td {
+    border: 1px solid;
+}
+#button {
+    position: relative;
+    left: 320px;
+}

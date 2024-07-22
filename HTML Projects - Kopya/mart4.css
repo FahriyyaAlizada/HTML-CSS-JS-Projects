@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 80%;
+    margin: 3px;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+#taskbar{
+    display: flex;
+    font-size: 60%;
+    justify-content: flex-start;
+    padding: 5px;
+    box-shadow: 0px 4px 5px rgb(213, 212, 212,0.3);
+}
+#text1 {
+    font-size: 70%;
+    margin: 10px;
+}
+img {
+    height: 140px;
+    width: 220px;
+}
+.boxes {
+    width: 220px;
+}
+#content h5{
+    background-color: rgb(152, 150, 150);
+    color: white;
+    font-size: 70%;
+}
+#content1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+#content2 {
+    display: flex;
+    justify-content: space-around;
+}
+#content h4{
+    font-size: 60%;
+    font-family: "Indie Flower", cursive;
+}

@@ -1,0 +1,9 @@
+p{
+    font-size: large;
+    font-family: Papyrus, Geneva, Tahoma, sans-serif;
+    font-variant: inherit;
+}
+h1{
+    background-color: bisque; 
+    color: rgb(43, 131, 131);
+}

@@ -1,0 +1,14 @@
+div {
+    border: 2px solid grey;
+    background-color: rgb(255, 234, 208);
+    width: 200px;
+    padding: 10px;
+    padding-top: 0px;
+    box-shadow: 2px 2px rgb(177, 174, 174);
+    position: relative;
+    left: 250px;
+}
+h1 {
+    position: relative;
+    left: 215px;
+}

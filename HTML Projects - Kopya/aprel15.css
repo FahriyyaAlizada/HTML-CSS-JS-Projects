@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+}
+#header {
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.text1 {
+    font-size: 70%;
+    color: rgb(51, 92, 103);
+}
+.text2 {
+    font-size: 60%;
+    color: rgb(158, 42, 43);
+    margin-bottom: 3px;
+}
+.boxes {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#image1 {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+#text1 {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    width: 170px;
+    text-align: end;
+    font-size: 150%;
+    color: rgb(84, 11, 14);
+}
+#circles {
+    display: flex;
+    position: absolute;
+    bottom: 70px;
+    right: 350px;
+}
+#circles i {
+    color: rgb(255, 243, 176);
+    margin-left: 3px;
+    font-size: 60%;
+}
+#circles i:hover {
+    color: rgb(158, 42, 43);
+}
+#textbox {
+    display: flex;
+    justify-content: space-around;
+    font-size: 70%;
+    margin-top: 10px;
+}
+#positionbox {
+    position: absolute;
+    top: 425px;
+    right: 100px;
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(84, 11, 14);
+    padding: 20px;
+    margin-top: 20px;
+}
+#footer p {
+    font-size: 60%;
+    color: rgb(255, 243, 176);
+    margin: 5px;
+}
+#footer h4 {
+    color: rgb(224, 159, 62);
+}
+#footervol2 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(84, 11, 14);
+    background-color: rgb(51, 92, 103);
+    font-size: 60%;
+}

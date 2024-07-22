@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./iyul11.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3c753c9a38.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div style="font-size: 80%; margin-top: 2px;">
+            <i style="color: red;" class="fa-solid fa-circle"> &emsp13;</i><i style="color: yellow;" class="fa-solid fa-circle">
+            </i>&emsp13;<i style="color: green;" class="fa-solid fa-circle"></i>
+        </div>
+        <div style="position: absolute; margin-left: 192px;">
+        <input type="text" placeholder="                              Search the web">
+        <i id="icon1" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <i style="margin-left: 650px; color: rgb(0, 21, 36); margin-top: 2px;" class="fa-solid fa-bars"></i>
+    </div>
+    <div id="box1">
+        <div id="box2">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 100%;
+            color: rgb(61, 91, 89);">Contact Us</h3> <br> <form id="myForm">
+            <label class="text">Your Name</label> <br>
+            <div style="display: flex; justify-content: center;" id="boxes">
+            <input type="text" placeholder="First name" name="firstName"> &emsp;
+            <input type="text" placeholder="Last name" name="lastName"> <br>
+            </div>
+            <label class="text">Email Address</label><br>
+            <input type="text" placeholder="Eg. example@email.com" name="email"> <br>
+            <label class="text">Phone Number</label><br>
+            <input type="number" placeholder="Eg. +1 800 000000" name="phoneNumber"> <br>
+            <label class="text">Message</label><br>
+            <textarea cols="21" rows="2" placeholder="Please enter your comments..." name="text"></textarea><br>
+            <button type="button" id="button1">SUBMIT</button> </form>
+        </div>
+    </div>
+    <script src="./iyul11.js"></script>
+    <script>
+
+        // $(document).ready(function () {
+        //     $("#button1").click(function (event) {
+        //         event.preventDefault();
+        //         $("input").each(function () {
+        //             console.log($(this).val());
+        //         });
+        //         console.log($("textarea").val());
+        //     });
+        // });
+
+        $(document).ready(function () {
+        $("#button1").click(function (event) {
+            event.preventDefault();
+            const formData = new FormData($("#myForm")[0]);
+            formData.forEach(function(value, key){
+                console.log(value);
+            });
+        });
+    });
+    </script>
+</body>
+</html>

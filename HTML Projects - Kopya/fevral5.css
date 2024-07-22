@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+#box1 {
+    background-color: rgb(182, 181, 181);
+    display: flex;
+    justify-content: space-between;
+}
+#box2 {
+    display: flex;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+#box3 {
+    display: flex;
+    margin-right: 5px;
+    width: 250px;
+    height: 15px;
+    font-size: x-small;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: whitesmoke;
+}
+button {
+    height: 25px;
+    font-size: x-small;
+}
+.text1 {
+    border-right: 1px solid;
+    padding: 3px;
+}
+.text1:hover {
+    background-color: whitesmoke;
+}
+#position {
+    position: absolute;
+    left: 110px;
+    top: -10px;
+    font-size: x-large;
+}
+#box4 {
+    background-color: whitesmoke;
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    font-size: 50%;
+}
+#text2 {
+    text-align: center;
+    color: grey;
+    margin: 3px;
+    font-size: 90%;
+    margin-bottom: 0px;
+}
+#box5 {
+    text-align: center;
+    background-color: beige;
+    margin-top: 0px;
+}
+.circle {
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: x-small;
+    padding: 3px;
+    background-color: rgb(244, 248, 248);
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+#box6 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: whitesmoke;
+}
+#text3 {
+    position: absolute;
+    bottom: 60px;
+    right: 125px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: small;
+    background-color: rgb(244, 248, 248);
+}

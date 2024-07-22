@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+}
+#header {
+    display: flex;
+    font-size: 60%;
+    background-color: rgb(195, 239, 221);
+    height: 15px;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+button {
+    border: 1px solid rgb(255, 160, 139);
+    background-color: rgb(255, 160, 139);
+    padding: 4px;
+    border-radius: 2px;
+    color: rgb(16, 171, 106);
+    font-size: 60%;
+    box-shadow: 2px 1px rgb(188, 187, 187);
+}
+#taskbar {
+    display: flex;
+    color: rgb(3, 50, 64);
+    justify-content: space-around;
+    font-size: 60%;
+    padding: 10px;
+}
+#taskbar h3,h4,p,i {
+    margin-top: 3px;
+}
+#taskbarvol2 {
+    display: flex;
+    justify-content: center;
+}
+#taskbarvol2 p {
+    color: grey;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 50%;
+}
+#apps i{
+    font-size: 120%;
+}
+#apps {
+    margin-top: 20px;
+}
+#image1 {
+    height: 220px;
+    width: 400px;
+    position: absolute;
+    left: 40px;
+    top: 90px;
+}
+.box1 {
+    position: relative;
+    width: 350px;
+    background-color: rgb(211, 219, 215);
+    padding: 10px;
+    border-radius: 3px;
+}
+.boxes {
+    font-size: 50%;
+    width: 200px;
+    box-shadow: 2px 3px rgb(186, 186, 186);
+    margin-top: 10px;
+    background-color: whitesmoke;
+    padding: 3px;
+}
+#content1 {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+}
+.parts {
+    margin-top: 100px;
+}
+.image2 {
+    width: 200px;
+    height: 150px;
+}
+.box2 {
+    position: relative;
+    width: 150px;
+    background-color: rgb(211, 219, 215);
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 50%;
+}
+.part1 {
+    display: flex;
+    justify-content: space-around;
+}
+#footer {
+    background-color: rgb(195, 239, 221);
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 60%;
+}

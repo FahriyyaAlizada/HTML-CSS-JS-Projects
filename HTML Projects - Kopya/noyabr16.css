@@ -1,0 +1,45 @@
+img, body {
+    padding: 0;
+    margin: 0;
+}
+#text1 {
+    padding: 30px;
+    font-size: 230%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 450px;
+}
+#text2 {
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 530px;
+}
+#text3 {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    bottom: 498px;
+    right: -192px;
+}
+#icon {
+    position: relative;
+    bottom: 450px;
+    right: -350px;
+}
+#box1 {
+    position: relative;
+    right: -330px;
+    bottom: 584px;
+}
+#box2 {
+    position: relative;
+    right: -670px;
+    bottom: 742px;
+}
+#box3 {
+    position: relative;
+    right: -950px;
+    bottom: 897px;
+}
+

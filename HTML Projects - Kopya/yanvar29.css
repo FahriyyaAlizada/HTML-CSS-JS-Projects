@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+#header {
+    height: 30px;
+    background-color: whitesmoke;
+    display: flex;
+    padding-top: 10px;
+    position: relative;
+}
+.flexbox {
+    display: flex;
+    font-size: 60%;
+    margin-left: 20px;
+}
+#text1 {
+    background-color: antiquewhite;
+    padding: 3px;
+    font-size: 70%;
+    margin: 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+}
+img {
+    position: relative;
+}
+#header2 {
+    position: absolute;
+    left: 60px;
+    bottom: 240px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.boxes {
+    text-align: center;
+    margin: 10px;
+    font-size: 80%;
+}
+.text2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hover{
+    width: 300px;
+    font-size: 80%;
+    background-color: antiquewhite;
+}
+.button {
+    background-color: aliceblue;
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 5px;
+}
+.click {
+    border: none;
+    border-bottom: 1px solid;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#dropdown1:hover #dropdown-content1 {
+    display: block;
+}
+#dropdown1 {
+    display: inline-block;
+    position: relative;
+}
+#dropdown-content1 {
+    display: none;
+    position: absolute;
+}
+#dropdown2:hover #dropdown-content2 {
+    display: block;
+}
+#dropdown2 {
+    display: inline-block;
+    position: relative;
+}
+#dropdown-content2 {
+    display: none;
+    position: absolute;
+}
+#dropdown3:hover #dropdown-content3 {
+    display: block;
+}
+#dropdown3 {
+    display: inline-block;
+    position: relative;
+}
+#dropdown-content3 {
+    display: none;
+    position: absolute;
+}

@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+}
+#box1 {
+    display: flex;
+    margin: 10px;
+}
+#box1 i {
+    margin-right: 3px;
+    font-size: 60%;
+}
+#icon1 {
+    font-size: 200%;
+    color: rgb(181, 193, 142);
+    margin-top: 5px;
+    margin-left: 30px;
+}
+#text1 {
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 120%;
+    color: rgb(181, 193, 142);
+    margin-top: 5px;
+}
+#box2 {
+    display: flex;
+    background-color: rgb(222, 172, 128);
+    padding: 5px;
+    margin-left: 30px;
+    border: 1px solid rgb(222, 172, 128);
+    width: 650px;
+}
+#box3 {
+    font-size: 60%;
+    color: rgb(185, 148, 112);
+    width: 600px;
+}
+#box3 p{
+    margin: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.text2 {
+    font-weight: bold;
+    margin-left: 30px;
+    color: rgb(181, 193, 142);
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+.box4 {
+    display: flex;
+    border-bottom: 1px solid rgb(222, 172, 128);
+    color: rgb(185, 148, 112);
+    width: 55px;
+    margin-left: 30px;
+}
+.box4 h3{
+    font-size: 70%;
+    margin: 0px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+.box4 i{
+    font-size: 60%;
+    margin-top: 2px;
+}
+.box5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.image {
+    width: 200px;
+    height: 130px;
+}
+.box6 {
+    border: 1px solid rgb(185, 148, 112);
+    width: 200px;
+}
+.box7 p {
+    font-size: 60%;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color: rgb(185, 148, 112);
+}
+.box7 h4 {
+    font-size: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(181, 193, 142);
+}
+.box7 {
+    padding: 5px;
+}
+.text3 {
+    margin-left: 2px;
+}

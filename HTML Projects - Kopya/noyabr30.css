@@ -1,0 +1,44 @@
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+#list1{
+    list-style-type: none;
+    background-color: rgb(198, 56, 31);
+    height: 20px;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+ .list{
+    color: beige;
+    float: left;
+    font-size: 15px;
+}
+img{
+    margin: 10px;
+    box-shadow: 3px 3px rgb(241, 237, 237);
+}
+p {
+    width: 400px;
+    position: absolute;
+    bottom: 185px;
+    right: 162px;
+}
+a:visited {
+    color: rgb(198, 56, 31);
+}
+ol {
+    margin: 0px;
+}
+#box {
+    position: absolute;
+    bottom: 44px;
+    right: 250px;
+}
+#text {
+    position: absolute;
+    bottom: 0px;
+    right: 60px;
+}

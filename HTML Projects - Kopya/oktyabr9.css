@@ -1,0 +1,16 @@
+h1 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 90px;
+
+}
+p {
+    color: rgb(243, 197, 141);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 70px;
+    
+}

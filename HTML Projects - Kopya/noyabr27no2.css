@@ -1,0 +1,22 @@
+table,td,th {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 3px;
+}
+th,td {
+    padding: 12px 15px;
+}
+th {
+    background-color: lightseagreen;
+}
+.color {
+    background-color: wheat;
+}
+.color2 {
+    color: rgb(133, 178, 56);
+    font-weight: bold;
+}
+#bottom {
+    border-bottom: 3px rgb(133, 178, 56);
+}

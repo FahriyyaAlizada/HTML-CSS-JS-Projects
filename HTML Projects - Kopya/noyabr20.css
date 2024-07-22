@@ -1,0 +1,20 @@
+table,td,th {
+    border: 3px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    width: 200px;
+}
+.image {
+    width: 500px;
+}
+td {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+th {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(99, 99, 95, 0.299);
+}
