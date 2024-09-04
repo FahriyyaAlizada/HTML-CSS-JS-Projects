@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="./home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/3c753c9a38.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/3c753c9a38.js" crossorigin="anonymous"></script>
+    <style>
+        .like-button {
+            font-size: 20px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        
+        .liked {
+            color: #007bff;
+        }
+        #userComments {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgb(190, 190, 190);
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body id="homePage">
+    <div class="hr"><hr style="margin: 0px; margin-top: 10px; margin-bottom: 5px;"></div>
+    <div style="margin-left: 18px;">
+        <a class="btn btn-primary btn-sm" href="./home.html" role="button" style="font-size: 50%; background-color: cadetblue; border: cadetblue">Home</a>
+    </div>
+    <div class="hr"><hr style="margin: 0px; margin-top: 5px; margin-bottom: 5px;"></div>
+
+    <div style="display: flex;"><div>
+        <div class="comments">
+            <img src="https://png.pngtree.com/png-vector/20240601/ourmid/pngtree-casual-man-flat-design-avatar-profile-picture-vector-png-image_12593008.png">
+            <div>
+                <h2>John Smith</h2>
+                <p>1 Sep, 2024 11:32</p>
+                <p>I've joined to Istanbul group tour. And love it, the energy of the group and the places we have visited was amazing.
+                Thanks for everyone who provided this to us. 
+                </p>
+                <div style="font-size: 70%;" class="like">
+                    <i class="fa fa-thumbs-up like-button" style="font-size: 100%;"></i>
+                    <span class="like-count">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="comments">
+            <img src="https://images.squarespace-cdn.com/content/v1/592577372e69cfb16c774206/1573029252375-C3MJ8SIDXA38H7GYVUEP/ico_pro-01.png">
+            <div>
+                <h2>Marc Hudson</h2>
+                <p>23 Jan, 2024 18:49</p>
+                <p>The best experience I have ever had. I was scared to koin this tour however then I discovered that it was the best 
+                desicion I have make in my life. Recommend to everyone
+                </p>
+                <div style="font-size: 70%;" class="like">
+                    <i class="fa fa-thumbs-up like-button" style="font-size: 100%;"></i>
+                    <span class="like-count">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="comments">
+            <img src="https://cdn-icons-png.flaticon.com/512/6833/6833605.png">
+            <div>
+                <h2>Elizabeth Black</h2>
+                <p>11 Jun,2024 08:26</p>
+                <p>OMG! This summer was the best summers I had in my life. Joined to Nice group tour and explored the best sides of France.
+                It was worth for it. If you have any concerns just give it a try. You will see that it was worth for it. Bonne chance
+                with exploring it.
+                </p>
+                <div style="font-size: 70%;" class="like">
+                    <i class="fa fa-thumbs-up like-button" style="font-size: 100%;"></i>
+                    <span class="like-count">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="userComment">
+        <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/original/user-icon-on-transparent-background-free-png.png">
+        <h2 class="user" style="font-size: 120%; text-align: center;"></h2>
+        <textarea id="comment" cols="30" rows="2" maxlength="50"></textarea> <br>
+        <a class="btn btn-primary btn-sm" href="#" role="button" style="font-size: 50%; background-color: cadetblue; border: cadetblue" onclick="send()" id="sent">Send</a>
+        <div id="usercomments">
+
+        </div>
+    </div>
+    <div style="margin-left: 10px;">
+        <div class="comments">
+            <div style="text-align: right; margin-right: 10px;">
+                <h2>Anna Adams</h2>
+                <p>17 Apr, 2024 16:21</p>
+                <p>Have lots of fun however I had fever in the middle of the tour. But it didn't totally destroyed my travel.
+                Tour was marvelous, the people I travelled with and of course the company itself. 
+                </p>
+                <div style="font-size: 70%;" class="like">
+                    <i class="fa fa-thumbs-up like-button" style="font-size: 100%;"></i>
+                    <span class="like-count">0</span>
+                </div>
+            </div>
+            <img src="https://cdn4.iconfinder.com/data/icons/business-conceptual-part1-1/513/employee-512.png">
+        </div>
+        <div class="comments">
+            <div style="text-align: right; margin-right: 10px;">
+                <h2>Ruby Baker</h2>
+                <p>10 Feb, 2024 06:30</p>
+                <p>I have lost in the subway, thanks to company I found my way and came back to group. This trip was hilarious,
+                I laughed so much. I will never forget this trip.
+                </p>
+                <div style="font-size: 70%;" class="like">
+                    <i class="fa fa-thumbs-up like-button" style="font-size: 100%;"></i>
+                    <span class="like-count">0</span>
+                </div>
+            </div>
+            <img src="https://cdn.icon-icons.com/icons2/3150/PNG/512/user_profile_female_icon_192701.png">
+        </div>
+        <div class="comments">
+            <div style="text-align: right; margin-right: 10px;">
+                <h2>Steve Fisher</h2>
+                <p>11 Jun,2024 08:26</p>
+                <p>It was good, not perfect for an introvent person. I was forced to join this trip. But when I look back I say thanks
+                to my parents who forced me to join this trip. Had a great experience
+                </p>
+                <div style="font-size: 70%;" class="like">
+                    <i class="fa fa-thumbs-up like-button" style="font-size: 100%;"></i>
+                    <span class="like-count">0</span>
+                </div>
+            </div>
+            <img src="https://cdn-icons-png.flaticon.com/512/2919/2919906.png">
+        </div>
+    </div></div>
+    <script src="./home.js"></script>
+    <script>
+        const likeButtons = document.querySelectorAll('.like-button');
+        const likeCountSpans = document.querySelectorAll('.like-count');
+
+    likeButtons.forEach((likeButton, index) => {
+        let likeCount = 0;
+        likeButton.addEventListener('click', function() {
+            if (likeButton.classList.contains('liked')) {
+                likeButton.classList.remove('liked');
+                likeCount--;
+            } else {
+                likeButton.classList.add('liked');
+                likeCount++;
+            }
+            likeCountSpans[index].textContent = likeCount;
+        });
+    });
+        const currentUsername = localStorage.getItem("currentUsername");
+        $(".user").text(currentUsername);
+        const userComments = document.getElementById("usercomments");
+        userComments.style.visibility = "visible";
+        const messages = JSON.parse(localStorage.getItem("messages")) || [];
+        messages.forEach(({ id, content }) => {
+        userComments.innerHTML += content;
+    });
+    </script>
+</body>
+</html>

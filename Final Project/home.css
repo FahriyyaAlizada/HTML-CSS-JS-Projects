@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+}
+#homePage hr {
+    width: 95%;
+}
+#loginPage hr {
+    width: 40%;
+}
+.hr {
+    display: flex;
+    justify-content: center;
+}
+#usernameBox {
+    display: flex;
+    margin-left: 18px;
+}
+#usernameBox h2 {
+    font-size: 120%;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.text1 {
+    font-size: 90%;
+    font-weight: bold;
+}
+.text2 {
+    font-size: 60%;
+    font-weight: bold;
+}
+#loginForm {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    margin: 0 auto;
+}
+#loginForm input{
+    height: 26px;
+}
+#loginForm label {
+    font-size: 70%;
+}
+#signupForm {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    margin: 0 auto;
+}
+#signupForm input {
+    height: 20px;
+}
+#signupForm label {
+    font-size: 70%;
+    margin-top: 0px;
+}
+.item:hover {
+    background-color: rgb(236, 234, 234);
+    cursor: pointer;
+    font-weight: bold;
+}
+#flexBox {
+    display: flex;
+}
+
+.cities {
+    width: 100px;
+    background-color:cadetblue;
+    height: 165px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 2px;
+    box-shadow: 4px 3px rgb(200, 199, 199);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.cityName {
+    text-align: left;
+    margin: 5px;
+    font-size: 80%;
+}
+.price{
+    text-align: left;
+    margin: 0px;
+    font-size: 60%;
+    margin-left: 5px;
+}
+.tourType{
+    text-align: left;
+    margin: 0px;
+    font-size: 60%;
+    margin-left: 5px;
+}
+.days{
+    text-align: left;
+    margin: 0px;
+    font-size: 50%;
+    color: rgb(77, 77, 77);
+    margin-left: 5px;
+}
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(237, 233, 233);
+    padding: 10px;
+    border-radius: 8px;
+}
+#boxes img {
+    width: 85px;
+    height: 65px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: transform .2s;
+}
+#boxes img:hover {
+    transform: scale(1.1);
+}
+.selected {
+    font-weight: bolder;
+}
+#datatable_length {
+    font-size: 60%;
+    margin-left: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#datatable_filter {
+    font-size: 70%;
+    margin-top: 12px;
+    margin-right: 18px;
+    margin-bottom: 10px;
+}
+#datatable_filter input {
+    height: 20px;
+}
+#datatable_info {
+    font-size: 85%;
+    text-align: left;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+#datatable_paginate {
+    font-size: 85%;
+    text-align: right;
+    margin-right: 18px;
+    margin-top: -22px;
+}
+.current {
+    font-size: 80%;
+}
+#formBox input{
+    height: 17px;
+    width: 180px;
+}
+.form-control::placeholder {
+    text-align: left;
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+    font-size: 62%;
+}
+#formBox input[type="text"]:focus {
+    font-size: 185%;
+}
+.button {
+    background-color: rgb(226, 218, 214);
+    padding: 5px;
+    font-size: 60%;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(226, 218, 214);
+}
+#image-preview-img {
+    width: 50px;
+    height: 30px;
+    transition: transform .2s;
+}
+#image-preview-img:hover {
+    transform: scale(2.0);
+}
+#zoom {
+    transition: transform .2s;
+}
+#zoom:hover {
+    transform: scale(2.0);
+}
+.comments {
+    display: flex;
+    width: 200px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgb(190, 190, 190);
+    position: relative;
+    margin-bottom: 10px;
+}
+.comments img  {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.comments h2 {
+    font-size: 90%;
+}
+.comments p {
+    font-size: 40%;
+}
+.like {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+#userComment img {
+    width: 120px;
+    height: 70px;
+    margin-left: 45px;
+}
+#userComment {
+    margin-left: 55px;
+    margin-right: 25px;
+}
+#userComments img {
+    width: 60px;
+    height: 35px;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+#userComments {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: aliceblue;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px rgb(190, 190, 190);
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#userComments h2 {
+    font-size: 90%;
+}
+#userComments p {
+    font-size: 40%;
+}
+.delete {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}

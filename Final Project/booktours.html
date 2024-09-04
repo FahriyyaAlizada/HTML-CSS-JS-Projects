@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tours</title>
+    <link rel="stylesheet" href="./home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body id="homePage">
+    <div class="hr"><hr style="margin: 0px; margin-top: 10px; margin-bottom: 5px;"></div>
+    <div style="margin-left: 18px;">
+        <a class="btn btn-primary btn-sm" href="./home.html" role="button" style="font-size: 50%; background-color: cadetblue; border: cadetblue">Home</a>
+    </div>
+    <div class="hr"><hr style="margin: 0px; margin-top: 5px; margin-bottom: 5px;"></div>
+    <div id="flexBox">
+    <div class="container">
+        <input class="form-control" id="myInput" type="text" placeholder="Search.." style="width: 150px; height: 20px; font-size: 75%; margin-left: 3px;">
+        <br>
+        <ul class="list-group" id="myList" style="width: 150px; font-size: 60%; margin-left: 3px;">
+          <li class="list-group-item item selected">Turkiye</li>
+          <li class="list-group-item item">France</li>
+          <li class="list-group-item item">Russia</li>
+          <li class="list-group-item item">USA</li>
+          <li class="list-group-item item">Greece</li>
+          <li class="list-group-item item">Brazil</li>
+          <li class="list-group-item item">Italy</li>
+          <li class="list-group-item item">Spain</li>
+        </ul>  
+      </div> 
+    <div id="boxes">
+        
+    </div>
+    </div>
+    <div id="myModal" class="modal fade" role="dialog" style="font-size: 50%;">
+        <div class="modal-dialog" style="width: 300px; margin: 0 auto;">
+          <div class="modal-content" style="padding: 10px;">
+            <div class="modal-header" style="padding: 5px; height: 20px;">
+              <button type="button" class="close" data-dismiss="modal" style="font-size: 170%;">&times;</button>
+              <h4 class="modal-title" style="font-size: 150%;">Tours & Travel</h4>
+            </div>
+            <div class="modal-body">
+                <img src="https://www.1zoom.me/big2/974/311438-svetik.jpg" style="width: 200px; height: 130px; margin-left: 24px;">
+                <p style="text-align: center; margin-top: 15px;">For your comfortable journey we orginazed everything you need.</p>
+                <p style="text-align: center;">Restaurant Reservations-Airplane Reservations-Daily Activity Program-Concert Reservations-Preparing your daily schedule</p>
+                <p style="text-align: center;">You just need to relax and enjoy your holiday. You don't even have to think about other things. Just Have Fun !!!</p>
+                <p style="text-align: center;">Contact us: +123-456-7890</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script>
+      $(document).ready(function(){
+        $("#myInput").on("keyup", function() {
+          var value = $(this).val().toLowerCase();
+          $("#myList li").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+          });
+        });
+      });
+    </script>
+    <script src="./home.js"></script>
+</body>
+</html>
